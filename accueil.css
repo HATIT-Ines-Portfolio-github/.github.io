@@ -1,0 +1,451 @@
+html, body {
+    height: 100%; /* Assure que la hauteur du html et body est de 100% */
+    margin: 0;
+    padding: 0;
+    overflow: hidden; /* Empêche le scrolling */
+}
+
+
+body {
+    background: #1d1d20 no-repeat center center fixed;
+    background-size: cover; /* Ajuste l'image de fond pour couvrir tout l'espace disponible */
+    font-family: 'Arial', sans-serif;
+}
+header {
+    text-align: center;
+    padding: 30px 0;
+}
+
+
+/* Style for all icons */
+.fas, .fab {
+    color: white; /* Change the color to white */
+    font-size: 20px; /* Adjust the size as needed */
+    margin-right: 60px; /* Add some space to the right of each icon */
+   
+    
+}
+
+.fas:hover, .fab:hover {
+    color: blue;
+}
+
+.icon-container {
+    position: relative;
+    left: 1480px; /* Adjust as needed */
+    margin-top: -17.5%;
+}
+
+
+
+
+.image-1 {
+    position: absolute;
+    top: 10%; 
+    left: 160px;
+	
+}
+
+.image-1 img {
+    width: 464px; 
+    height: auto;
+	
+}
+.image-2 {
+    position: absolute;
+    top: 15.8%; 
+    left: 138px;
+	
+}
+
+.image-2 img {
+    width: 100px; 
+    height: auto;
+	
+}.image-3 {
+    position: absolute;
+    top: 85%; 
+    left: 1200px;
+	
+}
+
+.image-3 img {
+    width: 550px; 
+    height: auto;
+	
+}.image-4 {
+    position: absolute;
+    top: 47%; 
+    left: 1640px;
+	
+}
+
+.image-4 img {
+    width: 125px; 
+    height: auto;
+	
+}
+.image-A {
+    position: absolute;
+    top: 33%; 
+    left: 1225px;
+	
+}
+
+.image-A img {
+    width: 125px; 
+    height: auto;
+	
+}
+
+.image-B {
+    position: absolute;
+    top: 37%; 
+    left: 1217px;
+	
+}
+
+.image-B img {
+    width: 40px; 
+    height: auto;
+	
+}
+.image-C {
+    position: absolute;
+    top: 39.5%; 
+    left: 1270px;
+	
+}
+
+.image-C img {
+    width: 52px; 
+    height: auto;
+	
+}
+.image-D {
+    position: absolute;
+    top: 43.6%; 
+    left: 1270px;
+	
+}
+
+.image-D img {
+    width: 52px; 
+    height: auto;
+	
+}
+.image-Dd {
+    position: absolute;
+    top: 43.6%; 
+    left: 1282px;
+	
+}
+
+.image-Dd img {
+    width: 52px; 
+    height: auto;
+	
+}
+.image-E {
+    position: absolute;
+    top: 47.8%; 
+    left: 1270px;
+	
+}
+
+.image-E img {
+    width: 52px; 
+    height: auto;
+	
+}
+.image-Ee {
+    position: absolute;
+    top: 47.8%; 
+    left: 1305px;
+	
+}
+
+.image-Ee img {
+    width: 52px; 
+    height: auto;
+	
+}
+.image-Eee {
+    position: absolute;
+    top: 47.8%; 
+    left: 1347px;
+	
+}
+
+.image-Eee img {
+    width: 52px; 
+    height: auto;
+	
+}
+.image-F {
+    position: absolute;
+    top: 52%; 
+    left: 1270px;
+	
+}
+
+.image-F img {
+    width: 52px; 
+    height: auto;
+	
+}
+.image-Ff {
+    position: absolute;
+    top: 52%; 
+    left: 1303px;
+	
+}
+
+.image-Ff img {
+    width: 52px; 
+    height: auto;
+	
+}
+.image-G {
+    position: absolute;
+    top: 56%; 
+    left: 1270px;
+	
+}
+
+.image-G img {
+    width: 52px; 
+    height: auto;
+	
+}
+.image-Gg {
+    position: absolute;
+    top: 56%; 
+    left: 1300px;
+	
+}
+
+.image-Gg img {
+    width: 52px; 
+    height: auto;
+	
+}
+.image-Ggg {
+    position: absolute;
+    top: 56%; 
+    left: 1332px;
+	
+}
+
+.image-Ggg img {
+    width: 52px; 
+    height: auto;
+	
+}
+.image-H {
+    position: absolute;
+    top: 60%; 
+    left: 1270px;
+	
+}
+
+.image-H img {
+    width: 52px; 
+    height: auto;
+	
+}
+.image-Hh {
+    position: absolute;
+    top: 60%; 
+    left: 1310px;
+	
+}
+
+.image-Hh img {
+    width: 52px; 
+    height: auto;
+	
+}
+
+
+
+
+
+nav {
+	background-color: transparent;
+	position: fixed;
+	height: 40%;
+	margin-top: 362px;
+	width: 250px; /* Ajustez la largeur comme vous le souhaitez */
+	left: 1250px;
+   
+	padding: 10px 0px;
+	text-align: center; 
+	border-radius: 50px; /* Ajoute des coins arrondis */
+}
+
+/* LES TITRES DE LA BARRE DE NAVIGATION*/
+nav ul {
+    list-style: none;
+    margin-top: -15px;
+	
+	margin-left: -19px;
+	
+	
+	
+}
+
+nav li {
+    display: block;
+	text-align: left;
+    padding: 0px 0; /* Ajoute un espacement vertical */
+	
+}
+
+/* la barre de navigation */  
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+	display: block;
+	
+	margin-block-start: 25px;
+	transition: color 0.3s ease, transform 0.3s ease; 
+	
+    border-radius: 50px;
+	
+    margin-right: 15px;
+}
+
+nav li a:hover {
+	box-shadow: 0 0 80px black;
+	box-sizing:inherit;
+	width: 200px;
+	
+    transform: scale(1.1); /* Agrandit légèrement le lien au */
+	
+    transform: translate(-10%, -20%); /* Ajuste la position exacte du bouton */
+    padding: 5px 20px;
+    background-color: #d0767d;
+    border: 1px solid white;
+    color: white;
+    text-decoration: none;
+    outline: none;
+    transition: .6s ease;
+    font-weight: bold; /* Rend le texte du bouton gras */
+    cursor: pointer;
+	border-radius: 50px;
+}
+
+
+
+
+
+.btn {
+    position: absolute; /* Positionnement absolu par rapport au body ou un autre conteneur relatif */
+    top: 88%; /* Position à 50% du haut de l'écran */
+    left: 49%; /* Position à 50% de la gauche de l'écran */
+    transform: translate(-50%, -50%); /* Ajuste la position exacte du bouton */
+    padding: 10px 20px;
+    background-color:transparent;
+    border: 1px solid #d0767d;
+    color: white;
+    text-decoration: none;
+    outline: none;
+    transition: .6s ease;
+    font-weight: bold; /* Rend le texte du bouton gras */
+    cursor: pointer;
+	border-radius: 50px;
+}
+
+.btn:hover {
+	cursor: pointer;
+	background-color: white;
+	color: #d0767d;
+	box-shadow: 0 0 5px white, 0 0 10px white, 0 0 15px white;
+	font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+h1 {
+    color: white;
+    font-size: 95px;
+   
+	margin-top: 13%;
+	margin-left: 19%;
+	font-family: 'Times New Roman', Times, serif;
+	
+   
+}
+
+
+h2 {
+	padding-top: 120px;
+	color: white;
+	margin-top: -17%;
+    margin-left: 1240px;
+	font-size: 30px;
+}
+
+h3 {
+    color: white;
+    font-size: 18px;
+  
+	margin-top: 7%;
+	margin-left: 27%;
+  
+}
+
+
+
+
+
+
+.alternance {
+    position: absolute;
+    top: 45%; 
+    left: 20%;
+}
+
+.alternance p {
+   
+    height: auto;
+    color: rgba(134,142,127,255); /* Change la couleur du texte en noir */
+    font-family: 'Courier New', Courier, monospace; /* Change la police du texte */
+	font-weight: bold;
+	font-size: 30px;
+}
+
+
+
+/*logo tel*/
+/* Style pour le conteneur du lien */
+.tel {
+    display: inline-block;
+    
+    margin-top: -40%;
+    margin-left: 100px;
+   
+}
+
+/* Style pour l'image à l'intérieur du lien */
+.tel a img {
+    width: 30px; 
+    height: auto;
+    transition: transform 0.3s ease;
+    
+}
+
+/* Style pour l'image à l'intérieur du lien lors du survol */
+.tel a:hover img {
+    transform: scale(1.1); /* Agrandit légèrement l'image au survol */
+}
